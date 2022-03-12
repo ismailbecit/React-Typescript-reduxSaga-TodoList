@@ -1,0 +1,45 @@
+.todoList-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.custom-Table {
+  border: none;
+  width: 1200px !important;
+  margin-top: 50px;
+  float: left;
+  margin-left: -376px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.custom-Table th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0 8px 0;
+}
+
+.custom-Table tr:hover {
+  background-color: #eee;
+}
+.custom-Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.custom-Table tr {
+  padding: 25px;
+  border: none;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.todo-complated {
+  text-decoration: line-through;
+}
+
+.custom-Table td {
+  padding: 30px;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */
